@@ -124,7 +124,7 @@ void InsertTable(TabelaHash *t, double x, char dados[STRING_MAX]) {
       strcpy(t->entradas[pos].dados_satelite, dados);
       t->n_elementos++;
       inserido = true;
-      printf("Elemento inserido após %d tentativas\n", tentativa);
+      printf("Elemento inserido após %d colisoes\n", tentativa - 1);
     } else if (tentativa == tentativa_max + 1 && t->tamanho < TABLE_MAX) {
       // Caso o numero de tentativas seja maior que 10x o tamanho do vetor
       // o vetor será realocado para um com 10x mais posicoes
