@@ -15,6 +15,8 @@ A utilização é bem intuitiva, o programa usa uma TUI com um leiaute de menu d
 
 Ao executar o programa pela primeira vez apenas 3 opções estão disponiveis, inserir um novo elemento, ler um arquivo de texto (que segue o padrão do arquivo incluido) ou sair do programa
 
+Para ler um arquivo certifique-se de que o arquivo segue a mesma formataçao do arquivo incluido e que na hora de inserir o nome do arquivo no programa inclua também a extensão do arquivo (por exemplo entrada.txt)
+
 Ao inserir um elemento as outras operações sobre a tabela serão liberadas (remover, consultar chave, imprimir elementos, consultar quantidade de elementos)
 
 Cada operação terá instruções na tela de como realizar
