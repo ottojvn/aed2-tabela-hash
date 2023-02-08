@@ -145,4 +145,6 @@ void LerArquivo(TabelaHash *t, const char *a) {
     dados[strlen(dados)] = '\0';
     InsertTable(t, chave, dados);
   }
+
+  fclose(file);
 }
